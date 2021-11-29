@@ -1,0 +1,40 @@
+.slideshow {
+  width: 100%;
+  height: 25%;
+  z-index: -1;
+  margin-bottom: -65px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  overflow: hidden;
+}
+
+.slideshowSlider {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.arrowButtons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  bottom: 10%;
+  cursor: pointer;
+}
+
+.marLeft {
+  margin-left: 20px;
+}
+
+.marRight {
+  margin-right: 20px;
+}
